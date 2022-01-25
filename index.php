@@ -46,8 +46,6 @@ switch($filter)
       imageflip($img, 3);
       break;
 }
-
-
 header('Content-Type: image/png');
 imagepng($img);
 imagedestroy($img);
